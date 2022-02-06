@@ -1,0 +1,94 @@
+:root {
+  --mainColor: #0b0c10;
+  --secondaryColor: #c5c6c7;
+  --thirdColor: #1f2833;
+  --forthColor: #66f6f1;
+  --fifthColor: #45a29e;
+  --searchBackgroundColor: #c5c6c7;
+  --sidebarHoverBackgroundColor: #fecd45;
+  --buttonHoverColor: rgb(255, 255, 255);
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+main {
+  width: auto;
+  width: 100%;
+  top: 0;
+  background-color: var(--mainColor);
+  position: relative;
+
+  transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
+}
+main.active {
+  width: 100%;
+}
+.home,
+.contact {
+  display: flex;
+  width: 100vw;
+  height: 50rem;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+.home .homeInfo {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+.home .homeInfo .homeText {
+  display: flex;
+  flex-direction: column;
+}
+.home .homeInfo .homeText span {
+  color: var(--secondaryColor);
+}
+.home .homeInfo .homeText {
+  width: 40rem;
+}
+.home .homeInfo .homeImg {
+  margin: 1rem;
+}
+
+.home .homeInfo .homeText span.homeGreet {
+  font-size: 3rem;
+}
+.home .homeInfo .homeText span#homeUsername {
+  display: inline-block;
+  color: var(--forthColor);
+  font-size: 4rem;
+  font-weight: bold;
+}
+.home .homeInfo .homeText span.homeWork {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--forthColor);
+  display: inline;
+}
+.typed-cursor {
+  display: inline;
+}
+.btnContainer {
+  display: flex;
+  margin-top: 1rem;
+}
+.btn {
+  background-color: var(--primaryColor);
+  border: 0.2rem solid var(--secondaryColor);
+  border-radius: 1.2rem;
+  margin: 1.1rem 0.7rem;
+  width: 15rem;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  color: var(--secondaryColor);
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  background-color: var(--secondaryColor);
+  border: 0.2rem solid var(--buttonHoverColor);
+  color: var(--mainColor);
+}

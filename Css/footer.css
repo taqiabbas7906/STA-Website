@@ -1,0 +1,6 @@
+#footer div {
+  text-align: center;
+  position: relative;
+  background-color: var(--secondaryColor);
+  font-size: 1.5rem;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title -->
+  <title>Syed Taqi Abbas | Personal Online Refrence | Web Developer </title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  <!-- Css StyleSheets -->
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <!-- Font Awesome Script Link -->
+  <script src="https://kit.fontawesome.com/da91f048d7.js" crossorigin="anonymous"></script>
+  <!-- Boxicon Script Link -->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="sidebar">
+    <nav>
+      <!-- Navbar Start -->
+      <!-- Logo Content Start -->
+      <div class="logoContent">
+        <img class="logoPng" src="logo.png" alt="logo" />
+        <div class="logoName">Portfolio</div>
+        <!-- Logo Content End -->
+      </div>
+      <ul id="navList">
+        <i class="bx bx-menu" id="menuBtn"></i>
+        <li class="searchBox">
+          <i class="bx bx-search searchBtn"></i>
+          <input id="searchInput" placeholder="Search..." type="text" />
+          <span class="toolTip">Search</span>
+        </li>
+        <li class="navItem">
+          <a href="#home">
+            <i class="fas fa-home" id="homeBtn"></i>
+            <span class="listName">Home</span>
+          </a>
+          <span class="toolTip">Home</span>
+        </li>
+
+        <!-- <li class="navItem">
+            <a href="#about">
+              <i class="fas fa-user"></i>
+              <span class="listName">About</span>
+            </a>
+            <span class="toolTip">About</span>
+          </li>
+
+          <li class="navItem">
+            <a href="#cv">
+              <i class="fas fa-address-book"></i>
+              <span class="listName">CV</span>
+            </a>
+            <span class="toolTip">CV</span>
+          </li> -->
+
+        <li class="navItem">
+          <a href="#contact">
+            <i class="fas fa-phone-alt"></i>
+            <span class="listName">Contact</span>
+          </a>
+          <span class="toolTip">Contact</span>
+        </li>
+
+        <li class="navItem">
+          <a href="#projects">
+            <i class="bx bxs-book-content"></i>
+            <span class="listName">Projects</span>
+          </a>
+          <span class="toolTip">Projects</span>
+        </li>
+
+        <li class="navItem">
+          <a href="#Notes">
+            <i class="fas fa-sticky-note"></i>
+            <span class="listName">Notes</span>
+          </a>
+          <span class="toolTip">Notes</span>
+        </li>
+      </ul>
+      <!-- Navbar End -->
+    </nav>
+  </div>
+  <main class="main">
+    <!-- Main Start -->
+    <!-- Home Start -->
+    <section class="home" id="home">
+      <div class="homeInfo">
+        <div class="homeText">
+          <span class="homeGreet">Hello I'm</span>
+          <span id="homeUsername">Syed Taqi Abbas</span><span class="homeGreet">I'm a <span class="homeWork"></span>
+          </span>
+          <div class="btnContainer">
+            <button id="#contact" class="btn">Contact Me</button><button class="btn">Projects</button>
+          </div>
+        </div>
+        <div class="homeImg"><img src="logo.png" alt="STA logo" /></div>
+      </div>
+    </section>
+    <!-- Home End -->
+    <!-- Contact Start -->
+  <div class="contactMain">
+    <div class="contactHeading"> <span>Contact Me</span></div>
+    <section class="contact" id="contact">
+      <!-- Social Media Start -->
+      <div class="contactRight">
+        <div class="socialMedia">
+          <span class="socialMediaHeading">Social Media</span>
+          <img class="line" src="img/line.png" alt="">
+          <div class="socialMediaInfo">
+            <div class="socialLinks googleInfo">
+              <a href="https://www.gmail.com/" target="_blank"><i
+                  class='bx socialMediaIcon bxl-google'></i></i>taqiabbas2222@gmail.com</a>
+            </div>
+            <div class=" socialLinks facebookInfo">
+              <a href="https://www.facebook.com/taqi.abbas.7906/" target="_blank"><i
+                  class="bx socialMediaIcon bxl-facebook-square bxl-facebook"></i>/taqi.abbas.7906</a>
+            </div>
+            <div class="socialLinks instagramInfo">
+              <a href="https://www.instagram.com/taqi.abbas.7906/" target="_blank"><i
+                  class="bx socialMediaIcon bxl-instagram-alt"></i>/taqi.abbas.7906</a>
+            </div>
+            <div class="socialLinks twitterInfo">
+              <a href="https://twitter.com/7906Taqi" target="_blank"><i
+                  class="bx socialMediaIcon bxl-twitter"></i>/7906Taqi</a>
+            </div>
+            <div class="socialLinks githubInfo">
+              <a href="https://github.com/taqiabbas7906" target="_blank"><i class='bx bxl-github'></i>/taqiabbas7906</a>
+            </div>
+          </div>
+        </div>
+        <!-- Social Media End -->
+      </div>
+      <div class="contactLeft">
+        <!-- Contact Form Start -->
+        <div class="contactForm">
+          <span class="contactFormHeading">Contact</span>
+          <img class="line" src="img/line.png" alt="">
+          <form action="#">
+            <input class="formInput contactFormName" id="contactFormFirstName" type="text" placeholder="First Name"
+              maxlength="22">
+            <input class="formInput contactFormName" id="contactFormLastName" type="text"
+              placeholder="Last Name (Optional)" maxlength="22">
+            <input class="formInput" id="contactFormEmail" type="text" placeholder="Email">
+            <textarea class="formInput" name="Message" id="contactFormTextArea" cols="50" rows="5"
+              placeholder="Message"></textarea>
+              <input class="contactSubmit"type="submit">
+          </form>
+        </div>
+        </div>
+        <!-- Contact Form End -->
+      </div>
+    </section>
+  </main>
+  <!-- Main End -->
+  <footer id="footer">
+    <div class="copyright">STA Portfolio &copy; under Syed Taqi Abbas</div>
+  </footer>
+  <!-- Navbar Script -->
+  <script src="Js/nabvar.js"></script>
+  <!-- Auto Typing Script Start -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".homeWork", {
+      strings: ["Web Developer", "Programmer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true,
+      showCursor: true,
+      cursorChar: "|",
+      smartBackspace: true,
+    });
+  </script>
+  <!-- Auto Typing Script End -->
+  <!-- Main Script -->
+  <script src="Js/main.js"></script>
+</body>
+
+</html>

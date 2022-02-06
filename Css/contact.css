@@ -1,0 +1,153 @@
+.contactMain {
+  background-color: var(--thirdColor);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+}
+.contactHeading {
+  display: block;
+
+  text-align: center;
+  font-size: 5rem;
+  color: var(--forthColor);
+}
+.contact .socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .socialMedia .socialMediaHeading,
+.contactFormHeading {
+  display: block;
+  font-size: 3.5rem;
+  color: var(--fifthColor);
+}
+.contact .socialMedia .line,
+.contactForm .line {
+  height: 3.5rem;
+  margin-bottom: 1rem;
+}
+.socialLinks {
+  margin-bottom: 1rem;
+}
+.contact .socialMedia .socialMediaInfo .facebookInfo a,
+.instagramInfo a,
+.twitterInfo a,
+.googleInfo a,
+.githubInfo a {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--secondaryColor);
+}
+.contact .socialMedia .socialMediaInfo .facebookInfo a:hover .bxl-facebook {
+  color: #1778f2;
+  font-size: 2.5rem;
+  transition: all 0.1s ease;
+}
+.contact
+  .socialMedia
+  .socialMediaInfo
+  .instagramInfo
+  a:hover
+  .bxl-instagram-alt {
+  font-size: 2rem;
+  transition: all 0.1s ease;
+  color: #e1306c;
+}
+.contact .socialMedia .socialMediaInfo .twitterInfo a:hover .bxl-twitter {
+  font-size: 2.5rem;
+  transition: all 0.1s ease;
+  color: #00acee;
+}
+.contact .socialMedia .socialMediaInfo .googleInfo a:hover .bxl-google {
+  font-size: 2.5rem;
+  transition: all 0.1s ease;
+  color: #db4437;
+}
+.contact .socialMedia .socialMediaInfo .githubInfo a:hover .bxl-github {
+  font-size: 2.5rem;
+  transition: all 0.1s ease;
+  color: #bf40bf;
+}
+.bxl-google {
+  font-size: 2.3rem;
+}
+.bxl-facebook {
+  font-size: 2.3rem;
+}
+.bxl-instagram-alt {
+  font-size: 2.3rem;
+}
+.bxl-twitter {
+  font-size: 2.3rem;
+}
+.bxl-github {
+  font-size: 2.3rem;
+}
+.contactForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contactForm form input,
+.contactForm form textarea {
+  margin: 1rem;
+  display: block;
+  resize: none;
+  font-size: 1.5rem;
+  background-color: var(--mainColor);
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  color: var(--secondaryColor);
+}
+.contactRight {
+  padding-right: 10rem;
+  padding-left: 8rem;
+}
+.contactLeft {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  border-left: 0.1rem solid var(--fifthColor);
+}
+.contactForm form .formInput::-webkit-input-placeholder {
+  color: var(--secondaryColor);
+}
+.contactForm form .contactFormName {
+  width: 22.3rem;
+  display: inline-block;
+}
+.contactForm form #contactFormEmail {
+  width: 49rem;
+}
+.contactForm form #contactFormTextArea {
+  margin-top: 2rem;
+  width: 49rem;
+}
+.contactForm form #contactFormTextArea::-webkit-scrollbar {
+  background-color: var(--thirdColor);
+  border: 0.1rem solid var(--mainColor);
+  border-radius: 0.4rem;
+}
+.contactForm form #contactFormTextArea::-webkit-scrollbar-thumb {
+  background-color: var(--secondaryColor);
+  border-radius: 0.4rem;
+}
+.contactForm .contactSubmit {
+  background-color: var(--secondaryColor);
+  color: var(--mainColor);
+  width: 51rem;
+}
