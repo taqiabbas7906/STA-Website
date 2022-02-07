@@ -51,6 +51,8 @@ main.active {
 }
 .home .homeInfo .homeImg {
   margin: 1rem;
+}
+.home .homeInfo .homeImg img {
   width: 20rem;
 }
 
