@@ -1,5 +1,37 @@
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   html {
     font-size: 30%;
+  }
+  .contact {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .contactRight .socialMediaInfo {
+    border-bottom: 1px solid var(--fifthColor);
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+  }
+  .socialMediaHeading {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .contact .socialMedia .socialMediaInfo span {
+    display: none;
+  }
+  .socialMedia .bx {
+    display: inline-block;
+    margin: 0.5rem;
+  }
+  .contactFormHeading {
+    display: none;
+  }
+  .contactLeft {
+    border: none;
+  }
+  .contactForm {
+    margin-top: 1rem;
   }
 }
