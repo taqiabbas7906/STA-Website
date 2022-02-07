@@ -12,20 +12,6 @@ html {
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
-main {
-  width: auto;
-  width: 100%;
-  top: 0;
-  background-color: var(--mainColor);
-  position: relative;
-
-  transition: all 0.5s ease;
-  display: flex;
-  flex-direction: column;
-}
-main.active {
-  width: 100%;
-}
 .home,
 .contact {
   display: flex;
@@ -34,8 +20,12 @@ main.active {
   justify-content: center;
   transition: all 0.5s ease;
 }
+.home {
+  background-color: var(--mainColor);
+}
 .home .homeInfo {
   display: flex;
+  margin: 3rem;
   flex-direction: row;
   align-items: center;
 }
