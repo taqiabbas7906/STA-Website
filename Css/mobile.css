@@ -1,9 +1,30 @@
-@media (max-width: 980px) {
+/* Tablet Resolution */
+@media (max-width: 900px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-width: 580px) {
   html {
     font-size: 30%;
   }
-  .home .homeInfo .homeText {
-    width: 35rem;
+  .home .homeInfo .homeImg img {
+    width: 15rem;
+    display: none;
+  }
+  .home,
+  .contact,
+  .project {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    transition: all 0.5s ease;
   }
   .contact {
     flex-direction: column;
